@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DroneX</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Jost:wght@300;400;500;700&family=Poppins:wght@200;300;400;600&family=Quicksand:wght@300;400;500;600;700&family=Urbanist:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ========== Start Navbar ========== -->
+    <header class="section-navbar">
+      <section class="top_txt">
+        <div class="head container">
+          <div class="head_txt">
+            <p>One Stop Solution For Drones and Accessories</p>
+          </div>
+          <div class="sing_in_up">
+            <a href="# ">SIGN IN</a>
+            <a href="# ">SIGN UP</a>
+          </div>
+        </div>
+      </section>
+      <div class="container">
+        <div class="navbar-brand">
+          <a href="index.html">
+            <img
+              src="./public/images/logo.png"
+              alt="DroneX logo"
+              class="logo"
+              width="70%"
+              height="auto"
+            />
+          </a>
+        </div>
+
+        <nav class="navbar">
+          <ul>
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">about</a>
+            </li>
+            <li class="nav-item">
+              <a href="products.html" class="nav-link">products</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">contact</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="addToCart.html"
+                class="nav-link add-to-cart-button"
+                id="cartValue"
+              >
+                <i class="fa-solid fa-cart-shopping"> 0 </i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- ========== End Navbar ========== -->
+
+    <section class="addToCartElement">
+      <div class="container">
+        <section>
+          <div id="productCartContainer"></div>
+        </section>
+
+        <section class="productCartTotalElem">
+          <div class="productCartTotalElement">
+            <p>Selected Offer Summary</p>
+            <div class="productOrderTotal">
+              <div>
+                <p>Sub Total:</p>
+                <p class="productSubTotal">₹0.00</p>
+              </div>
+              <div>
+                <p>Tax (18%):</p>
+                <p class="productTax">₹0.00</p>
+              </div>
+              <hr />
+              <div>
+                <p>Final Total:</p>
+                <p class="productFinalTotal">₹0.00</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- Template for a product -->
+    <template id="productCartTemplate">
+      <div class="cards" id="cardValue">
+        <article class="information [ card ]">
+          <div>
+            <span class="category"></span>
+          </div>
+          <div class="imageContainer">
+            <img class="productImage" src="" alt="" />
+          </div>
+
+          <h2 class="productName"></h2>
+
+          <p class="productPrice"></p>
+
+          <div class="stockElement">
+            <button class="cartIncrement">+</button>
+            <p class="productQuantity" data-quantity="1">1</p>
+            <button class="cartDecrement">-</button>
+          </div>
+
+          <!-- <button class="add-to-cart-button">Add To Cart</button> -->
+          <button class="add-to-cart-button remove-to-cart-button">
+            Remove
+          </button>
+        </article>
+      </div>
+    </template>
+
+    <!-- Add this after the Final Total section -->
+<div class="payment-section">
+  <button class="razorpay-payment-button">Checkout Now</button>
+</div>
+
+    <!-- ========== Start footer Section ========== -->
+    <footer class="section-footer">
+      <div class="footer-container container">
+        <div class="content_1">
+          <img src="./images/logo.png" alt="DroneX logo" />
+          <p>
+            Welcome to DroneX, your premier destination for cutting-edge drones<br> 
+            and professional-grade aerial solutions!
+          </p>
+          <img src="https://i.postimg.cc/Nj9dgJ98/cards.png" alt="payment methods" />
+        </div>
+        <div class="content_2">
+          <h4>DRONE SOLUTIONS</h4>
+          <a href="#">Consumer Drones</a>
+          <a href="#">Professional Drones</a>
+          <a href="#">FPV Racing Kits</a>
+          <a href="#">Bundle Offers</a>
+        </div>
+        <div class="content_3">
+          <h4>SUPPORT</h4>
+          <a href="./contact.html">Contact Our Pilots</a>
+          <a href="#">Warranty & Services</a>
+          <a href="#">Shipping Policy</a>
+          <a href="#">FAQ Section</a>
+        </div>
+        <div class="content_4">
+          <h4>FLY WITH US</h4>
+          <p>Get exclusive updates on new drone<br>models and member discounts!</p>
+          <div class="f-mail">
+            <input type="email" placeholder="Enter your pilot email" />
+            <i class="bx bx-envelope"></i>
+          </div>
+          <hr />
+        </div>
+      </div>
+      <div class="f-design">
+        <div class="f-design-txt">
+          <p>Designed and Developed by Dhrubojit Chowdhury</p>
+        </div>
+      </div>
+    </footer>
+    <!-- ========== End footer Section ========== -->
+
+    <script type="module" src="calculatePrices.js"></script>
+<script type="module" src="showAddToCartCards.js"></script>
+<script type="module" src="razorpayPayment.js"></script>
+  </body>
+</html>

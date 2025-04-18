@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Contact Page</title>
+  </head>
+  <body>
+    <!-- ========== Start Navbar ========== -->
+
+    <header class="section-navbar">
+      <section class="top_txt">
+        <div class="head container">
+          <div class="head_txt">
+            <p>One Stop Solution For Drones and Accessories</p>
+          </div>
+          <div class="sing_in_up">
+            <a href="# ">SIGN IN</a>
+            <a href="# ">SIGN UP</a>
+          </div>
+        </div>
+      </section>
+      <div class="container">
+        <div class="navbar-brand">
+          <a href="index.html">
+            <img
+              src="./public/images/logo.png"
+              alt="DroneX logo"
+              class="logo"
+              width="70%"
+              height="auto"
+            />
+          </a>
+        </div>
+
+        <nav class="navbar">
+          <ul>
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">about</a>
+            </li>
+            <li class="nav-item">
+              <a href="products.html" class="nav-link">products</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">contact</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="addToCart.html"
+                class="nav-link add-to-cart-button"
+                id="cartValue"
+              >
+                <i class="fa-solid fa-cart-shopping"> 0 </i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ========== End Navbar ========== -->
+    <!-- ========== Start About Section ========== -->
+    <section class="section-contact">
+      <div class="container">
+        <h2 class="section-common--heading">Drone Support Hub</h2>
+        <p class="section-common--subheading">
+          Reach our aerial experts 24/7 for technical support, commercial inquiries, or flight training questions
+        </p>
+      </div>
+    
+      <div class="container grid grid-two--cols">
+        <!-- Contact Form -->
+        <div class="contact-content">
+          <form action="#" class="drone-contact-form">
+            <div class="form-header">
+              <h3>Flight Assistance Request</h3>
+              <p>Average response time: 12 minutes</p>
+            </div>
+    
+            <div class="grid grid-two-cols mb-3">
+              <div class="input-group">
+                <label for="pilot-name">Pilot Name*</label>
+                <input type="text" name="pilot-name" id="pilot-name" required autocomplete="name" placeholder="Enter certified pilot name" />
+              </div>
+    
+              <div class="input-group">
+                <label for="drone-model">Drone Model</label>
+                <select name="drone-model" id="drone-model">
+                  <option value="">Select your drone</option>
+                  <option value="DJI Mavic">DJI Mavic Series</option>
+                  <option value="FPV Racing">FPV Racing Drones</option>
+                  <option value="Enterprise">Enterprise Solutions</option>
+                  <option value="Custom">Custom Build</option>
+                </select>
+              </div>
+            </div>
+    
+            <div class="grid grid-two-cols mb-3">
+              <div class="input-group">
+                <label for="contact-email">Contact Email*</label>
+                <input type="email" name="contact-email" id="contact-email" required autocomplete="email" placeholder="pilot@dronex.com" />
+              </div>
+    
+              <div class="input-group">
+                <label for="flight-certification">Certification ID</label>
+                <input type="text" name="flight-certification" id="flight-certification" placeholder="FAA/DroneX Certification" />
+              </div>
+            </div>
+    
+            <div class="mb-3">
+              <label for="support-type">Support Type*</label>
+              <select name="support-type" id="support-type" required>
+                <option value="">Select inquiry type</option>
+                <option value="Technical">Technical Support</option>
+                <option value="Sales">Commercial Inquiry</option>
+                <option value="Training">Flight Training</option>
+                <option value="Parts">Replacement Parts</option>
+              </select>
+            </div>
+    
+            <div class="mb-3">
+              <label for="flight-log">Attach Flight Log</label>
+              <input type="file" id="flight-log" accept=".csv,.txt,.pdf" />
+            </div>
+    
+            <div class="mb-3">
+              <label for="message">Detailed Message*</label>
+              <textarea name="message" id="message" cols="30" rows="6" placeholder="Describe your issue including flight conditions, error codes, and troubleshooting steps attempted" required></textarea>
+            </div>
+    
+            <div class="form-footer">
+              <button type="submit" class="btn drone-submit-btn">
+                <i class="fas fa-paper-plane"></i> Launch Request
+              </button>
+              <p class="disclaimer">By submitting, you agree to our <a href="#">Aerial Support Terms</a></p>
+            </div>
+          </form>
+        </div>
+    
+        <!-- Google Map -->
+        <div class="contact-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3410.7480743149467!2d75.70229287609064!3d31.25539666018461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a5f5e9c489cf3%3A0x4049a5409d53c300!2sLovely%20Professional%20University!5e0!3m2!1sen!2sin!4v1744908792576!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+    
+
+    <!--* ========== Start Footer Section ========== -->
+
+    <footer class="section-footer">
+      <script src="footer.js"></script>
+    </footer>
+    <!-- Include the footer JavaScript file -->
+
+    <!--* ========== End Footer Section ========== -->
+
+    <!-- ========== End About Section ========== -->
+
+    <script type="module" src="/main.js"></script>
+
+    <!-- JS SCRIPT  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
