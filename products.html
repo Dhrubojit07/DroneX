@@ -22,9 +22,24 @@
             <p>One Stop Solution For Drones and Accessories</p>
           </div>
           <div class="sing_in_up">
-            <a href="# ">SIGN IN</a>
-            <a href="# ">SIGN UP</a>
-          </div>
+            <!-- Before Login -->
+            <div class="auth-links" id="authLinks">
+                <a href="signin.html" class="auth-link">SIGN IN</a>
+                <a href="signup.html" class="auth-link">SIGN UP</a>
+            </div>
+        
+            <!-- After Login -->
+            <div class="user-profile" id="userProfile" style="display: none;">
+                <div class="user-avatar">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="user-details">
+                    <span class="username" id="username"></span>
+                    <a href="#" class="logout-link" id="logoutLink">Logout</a>
+                </div>
+            </div>
+        </div>
+        </div>
         </div>
       </section>
       <div class="container">
@@ -168,7 +183,7 @@
     <!-- ========== Start Product Template Section ========== -->
 
     <template id="productTemplate">
-      
+      <div class="cards" id="cardValue">
         <article class="information [card]">
           <span class="category"></span>
           <div class="imageContainer">

@@ -11,7 +11,7 @@ getCartProductFromLS();
 // -----------------------------------------------------
 // to add the data into localStorage
 // --------------------------------------------------------
-export const addToCart = (event, id, stock) => { 
+export const addToCart = (event, id, stock) => {
   let arrLocalStorageProduct = getCartProductFromLS();
 
   const currentProdElem = document.querySelector(`#card${id}`);

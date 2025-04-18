@@ -1,62 +1,501 @@
 [
   {
     "id": 1,
-    "name": "Laptop",
-    "category": "Computers",
-    "brand": "ExampleBrand",
-    "price": 999.99,
+    "name": "DJI Mavic 3 Pro",
+    "category": "Mavic Series",
+    "brand": "DJI",
+    "price": 200000,
     "stock": 50,
-    "description": "Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14-inch FHD display.",
-    "image": "../images/lapi.png"
+    "description": "4/3 CMOS Hasselblad Camera | Dual Tele Cameras | Cine Only Tri-Camera Apple ProRes Support | 43-Min Max Flight Time | Omnidirectional Obstacle Sensing | 15km HD Video Transmission",
+    "image": "../images/mavic3pro.png"
   },
   {
     "id": 2,
-    "name": "Smartphone",
-    "category": "Mobiles",
-    "brand": "TechGadget",
-    "price": 499.99,
-    "stock": 100,
-    "image": "../images/iphone.png",
-    "description": "Feature-rich smartphone with a 6.2-inch screen, 12MP dual camera, 128GB storage, and a 4000mAh battery."
+    "name": "DJI Air 2S",
+    "category": "Air Series",
+    "brand": "DJI",
+    "price": 120000,
+    "stock": 60,
+    "description": "1-inch CMOS sensor for 20 MP images, 5.4K video recording, 31-minute max flight time, and advanced obstacle avoidance features.",
+    "image": "../images/air2s.png"
   },
   {
     "id": 3,
-    "name": "Wireless Headphones",
-    "category": "Audio",
-    "brand": "SoundBeats",
-    "price": 149.99,
-    "stock": 30,
-    "image": "../images/headphone.png",
-    "description": "High-quality wireless headphones with over-ear design, 20 hours of battery life, and a sleek black color."
+    "name": "DJI Mini 3 Pro",
+    "category": "Mini Series",
+    "brand": "DJI",
+    "price": 80000,
+    "stock": 75,
+    "description": "Ultra-portable drone with 4K video recording, vertical shooting, and enhanced flight safety features perfect for beginners.",
+    "image": "../images/mini3pro.png"
   },
   {
     "id": 4,
-    "name": "Watches",
-    "category": "Wearables",
-    "brand": "FitTech",
-    "price": 199.99,
-    "stock": 20,
-    "image": "../images/watch.png",
-    "description": "Smartwatch with a 1.3-inch AMOLED display, water-resistant design, fitness tracking features, and a stylish silver color."
+    "name": "Parrot Anafi",
+    "category": "Parrot Series",
+    "brand": "Parrot",
+    "price": 70000,
+    "stock": 40,
+    "description": "Compact drone with 4K HDR video, 21 MP camera, 25-minute flight time, and a unique 180° tilting gimbal for creative shots.",
+    "image": "../images/parrotanafi.png"
   },
   {
     "id": 5,
-    "name": "Speakers",
-    "category": "Audio",
-    "brand": "SoundBeats",
-    "price": 149.99,
+    "name": "Autel Robotics EVO Lite+",
+    "category": "EVO Series",
+    "brand": "Autel Robotics",
+    "price": 150000,
     "stock": 30,
-    "image": "../images/speakers.png",
-    "description": "High-quality wireless headphones with over-ear design, 20 hours of battery life, and a sleek black color."
+    "description": "Features a 1-inch CMOS sensor, adjustable aperture, 6K video recording, and intelligent flight modes for creative professionals.",
+    "image": "../images/evoliteplus.png"
   },
   {
     "id": 6,
-    "name": "Television",
-    "category": "Video",
-    "brand": "Samsung",
-    "price": 199.99,
+    "name": "Skydio 2",
+    "category": "Skydio Series",
+    "brand": "Skydio",
+    "price": 175000,
+    "stock": 25,
+    "description": "AI-powered autonomous flight with exceptional obstacle avoidance, 4K video, and tracking capabilities ideal for action shots.",
+    "image": "../images/skydio2.png"
+  },
+  {
+    "id": 7,
+    "name": "DJI Phantom 4 Pro",
+    "category": "Phantom Series",
+    "brand": "DJI",
+    "price": 180000,
+    "stock": 35,
+    "description": "Equipped with a 1-inch 20 MP sensor, 4K video recording at 60fps, and advanced obstacle sensing for professional photography.",
+    "image": "../images/phantom4pro.png"
+  },
+  {
+    "id": 8,
+    "name": "DJI Inspire 2",
+    "category": "Inspire Series",
+    "brand": "DJI",
+    "price": 450000,
+    "stock": 15,
+    "description": "Designed for professional cinematography with dual battery design, 5.2K video capture, and interchangeable lenses.",
+    "image": "../images/inspire2.png"
+  },
+  {
+    "id": 9,
+    "name": "DJI Mavic Air 2",
+    "category": "Mavic Series",
+    "brand": "DJI",
+    "price": 110000,
+    "stock": 45,
+    "description": "High-resolution 48 MP camera, 4K video, 34-minute flight time, and advanced safety features suitable for aerial photography.",
+    "image": "../images/mavicair2.png"
+  },
+  {
+    "id": 10,
+    "name": "DJI Spark",
+    "category": "Spark Series",
+    "brand": "DJI",
+    "price": 50000,
+    "stock": 55,
+    "description": "A compact, smart drone perfect for beginners, featuring gesture control, intelligent flight modes, and lightweight design.",
+    "image": "../images/spark.png"
+  },
+  {
+    "id": 11,
+    "category": "Mavic Series",
+    "brand": "DJI",
+    "price": 170000,
+    "stock": 40,
+    "description": "Equipped with a Hasselblad camera offering 1-inch CMOS sensor, adjustable aperture, and detailed aerial imaging capabilities.",
+    "image": "../images/mavic2pro.png"
+  },
+  {
+    "id": 12,
+    "name": "DJI Flip",
+    "category": "Flip Series",
+    "brand": "DJI",
+    "price": 160000,
+    "stock": 40,
+    "description": "Features a 2x optical zoom lens combined with a 1/2.3-inch sensor, perfect for capturing versatile aerial photography.",
+    "image": "../images/djiflip.png"
+  },
+  {
+    "id": 13,
+    "name": "DJI AVATA",
+    "category": "FPV Series",
+    "brand": "DJI",
+    "price": 140000,
     "stock": 20,
-    "image": "../images/tv.png",
-    "description": "Smartwatch with a 1.3-inch AMOLED display, water-resistant design, fitness tracking features, and a stylish silver color."
+    "description": "Blends immersive first-person view with high-speed performance, making it ideal for enthusiasts and racing pilots.",
+    "image": "../images/djiavata.png"
+  },
+  {
+    "id": 14,
+    "name": "Yuneec Typhoon H Pro",
+    "category": "Typhoon Series",
+    "brand": "Yuneec",
+    "price": 130000,
+    "stock": 22,
+    "description": "Hexacopter drone with 4K camera, 360° rotating gimbal, and powerful flight controls designed for aerial photography.",
+    "image": "../images/typhoonhpro.png"
+  },
+  {
+    "id": 15,
+    "name": "Autel Evo II Pro",
+    "category": "EVO Series",
+    "brand": "Autel Robotics",
+    "price": 210000,
+    "stock": 18,
+    "description": "Equipped with a 1-inch sensor, adjustable aperture, 6K video recording, and extended flight time for professional workflows.",
+    "image": "../images/evoiipro.png"
+  },
+  {
+    "id": 16,
+    "name": "Parrot Bebop 2",
+    "category": "Bebop Series",
+    "brand": "Parrot",
+    "price": 45000,
+    "stock": 50,
+    "description": "Lightweight and agile drone ideal for hobbyists, featuring 1080p video, easy control, and stable flight performance.",
+    "image": "../images/bebop2.png"
+  },
+  {
+    "id": 17,
+    "name": "DJI Mini 2",
+    "category": "Mini Series",
+    "brand": "DJI",
+    "price": 60000,
+    "stock": 80,
+    "description": "Ultra-compact drone with 4K video recording, 31-minute flight time, and user-friendly controls ideal for travel and adventure.",
+    "image": "../images/mini2.png"
+  },
+  {
+    "id": 18,
+    "name": "DJI Mavic 3 Classic",
+    "category": "Mavic Series",
+    "brand": "DJI",
+    "price": 190000,
+    "stock": 35,
+    "description": "A refined version of the Mavic 3 offering professional camera capabilities, extended flight times, and streamlined features.",
+    "image": "../images/mavic3Classic.png"
+  },
+  {
+    "id": 19,
+    "name": "Autel Robotics EVO Nano+",
+    "category": "Nano Series",
+    "brand": "Autel Robotics",
+    "price": 75000,
+    "stock": 45,
+    "description": "Compact and lightweight design with advanced imaging, ideal for enthusiasts looking to capture aerial moments on the go.",
+    "image": "../images/evoliteplus.png"
+  },
+  {
+    "id": 20,
+    "name": "Holy Stone HS720E",
+    "category": "Holy Stone Series",
+    "brand": "Holy Stone",
+    "price": 40000,
+    "stock": 60,
+    "description": "An affordable drone featuring 4K EIS stabilized video, 23-minute flight time, and GPS-assisted positioning for beginners.",
+    "image": "../images/hs720e.png"
+  },
+  {
+    "id": 21,
+    "name": "Hubsan Zino Pro",
+    "category": "Zino Series",
+    "brand": "Hubsan",
+    "price": 95000,
+    "stock": 30,
+    "description": "Offers 4K video recording, 3-axis gimbal stabilization, and intelligent flight modes, making it a balanced option for prosumers.",
+    "image": "../images/zino_pro.png"
+  },
+  {
+    "id": 22,
+    "name": "FIMI X8 SE 2020",
+    "category": "FIMI Series",
+    "brand": "FIMI",
+    "price": 85000,
+    "stock": 40,
+    "description": "Lightweight drone featuring 4K video, 3-axis gimbal stabilization, and a foldable design suited for travel photography.",
+    "image": "../images/x8se2020.png"
+  },
+  {
+    "id": 23,
+    "name": "DJI Agras T20",
+    "category": "Agricultural Series",
+    "brand": "DJI",
+    "price": 550000,
+    "stock": 10,
+    "description": "Agricultural drone designed for precision spraying and crop monitoring with high load capacity and robust performance in the field.",
+    "image": "../images/agrasT20.png"
+  },
+  {
+    "id": 24,
+    "name": "DJI Matrice 300 RTK",
+    "category": "Enterprise Series",
+    "brand": "DJI",
+    "price": 900000,
+    "stock": 8,
+    "description": "An advanced enterprise drone offering multiple payload configurations, long flight times, and precision RTK positioning for industrial applications.",
+    "image": "../images/matrice300rtk.png"
+  },
+  {
+    "id": 25,
+    "name": "Yuneec Mantis G",
+    "category": "Mantis Series",
+    "brand": "Yuneec",
+    "price": 95000,
+    "stock": 28,
+    "description": "Foldable, agile drone with gesture control, 4K camera, and intelligent flight modes, perfect for capturing spontaneous moments.",
+    "image": "../images/mantisg.png"
+  },
+  {
+    "id": 26,
+    "name": "DJI Mavic Pro Platinum",
+    "category": "Mavic Series",
+    "brand": "DJI",
+    "price": 180000,
+    "stock": 30,
+    "description": "An upgraded edition of the classic Mavic Pro featuring a stunning platinum finish and enhanced performance.",
+    "image": "../images/mavicproplatinum.png"
+  },
+  {
+    "id": 27,
+    "name": "DJI Mavic Pro",
+    "category": "Mavic Series",
+    "brand": "DJI",
+    "price": 150000,
+    "stock": 25,
+    "description": "The original Mavic Pro combines portability and high performance, ideal for both amateurs and professionals.",
+    "image": "../images/mavicPro.png"
+  },
+  {
+    "id": 28,
+    "name": "FPV Racing Drone",
+    "category": "Racing Series",
+    "brand": "Custom",
+    "price": 130000,
+    "stock": 20,
+    "description": "Designed for high-speed racing with immersive first-person view, delivering agility and precision control.",
+    "image": "../images/djifpvracing.png"
+  },
+  {
+    "id": 29,
+    "name": "FPV Drone Combo",
+    "category": "FPV Series",
+    "brand": "DJI",
+    "price": 140000,
+    "stock": 15,
+    "description": "A complete FPV package featuring the drone, controller, goggles, and spare parts for an immersive racing experience.",
+    "image": "../images/fpvdronecombo.png"
+  },
+  {
+    "id": 30,
+    "name": "Autel Robotics EVO Lite",
+    "category": "EVO Series",
+    "brand": "Autel Robotics",
+    "price": 135000,
+    "stock": 30,
+    "description": "Sleek design with high-resolution imaging and intelligent flight modes, ideal for creative aerial shots.",
+    "image": "../images/evolite.png"
+  },
+  {
+    "id": 31,
+    "name": "Drone Propellers (Set of 4)",
+    "category": "Accessories",
+    "brand": "Generic",
+    "price": 3000,
+    "stock": 100,
+    "description": "High-quality replacement propellers compatible with most drone models, ensuring optimal flight performance.",
+    "image": "../images/propellerset.png"
+  },
+  {
+    "id": 32,
+    "name": "Spare Battery for DJI Mavic 3 Pro",
+    "category": "Accessories",
+    "brand": "DJI",
+    "price": 15000,
+    "stock": 50,
+    "description": "Extra battery designed to extend the flight time of your DJI Mavic 3 Pro for longer sessions.",
+    "image": "../images/mavic3pro_battery.png"
+  },
+  {
+    "id": 33,
+    "name": "Camera Gimbal Stabilizer",
+    "category": "Accessories",
+    "brand": "Generic",
+    "price": 8000,
+    "stock": 40,
+    "description": "Stabilizer for drone cameras ensuring smooth and steady aerial footage even in challenging conditions.",
+    "image": "../images/gimbalstabilizer.png"
+  },
+  {
+    "id": 34,
+    "name": "Drone Controller",
+    "category": "Accessories",
+    "brand": "Generic",
+    "price": 7000,
+    "stock": 60,
+    "description": "Universal drone controller offering precise control and compatibility with various drone models.",
+    "image": "../images/dronecontroller.png"
+  },
+  {
+    "id": 35,
+    "name": "FPV Goggles V2",
+    "category": "Accessories",
+    "brand": "DJI",
+    "price": 26000,
+    "stock": 30,
+    "description": "Immersive FPV goggles designed for first-person view, perfect for drone racing and aerial exploration.",
+    "image": "../images/fpvgoggles.png"
+  },
+  {
+    "id": 36,
+    "name": "Drone Landing Pad",
+    "category": "Accessories",
+    "brand": "Generic",
+    "price": 2500,
+    "stock": 80,
+    "description": "Portable landing pad that protects your drone during take-offs and landings on various surfaces.",
+    "image": "../images/landingpad.png"
+  },
+  {
+    "id": 37,
+    "name": "Extra Battery for DJI Air 2S",
+    "category": "Accessories",
+    "brand": "DJI",
+    "price": 10000,
+    "stock": 60,
+    "description": "An additional battery pack to extend your DJI Air 2S flight time for longer aerial sessions.",
+    "image": "../images/air2s_battery.png"
+  },
+  {
+    "id": 38,
+    "name": "ND Filter Set for Drone Camera",
+    "category": "Accessories",
+    "brand": "Generic",
+    "price": 3500,
+    "stock": 70,
+    "description": "A complete set of ND filters to control exposure and enhance the quality of aerial photography.",
+    "image": "../images/ndfilter.png"
+  },
+  {
+    "id": 39,
+    "name": "DJI Care Refresh Protection",
+    "category": "Accessories",
+    "brand": "DJI",
+    "price": 20000,
+    "stock": 100,
+    "description": "A comprehensive protection plan offering repair or replacement for your DJI drone in case of accidental damage.",
+    "image": "../images/djicare.png"
+  },
+  {
+    "id": 40,
+    "name": "Propeller Guard for DJI Mini 3 Pro",
+    "category": "Accessories",
+    "brand": "DJI",
+    "price": 5000,
+    "stock": 50,
+    "description": "Protective propeller guards designed specifically for the DJI Mini 3 Pro to ensure safe flights.",
+    "image": "../images/propguard.png"
+  },
+  {
+    "id": 41,
+    "name": "Drone Backpack",
+    "category": "Accessories",
+    "brand": "Generic",
+    "price": 4000,
+    "stock": 40,
+    "description": "An ergonomic backpack designed to safely store and transport your drone and all its accessories.",
+    "image": "../images/dronebackpack.png"
+  },
+  {
+    "id": 42,
+    "name": "DJI Mini Charger",
+    "category": "Accessories",
+    "brand": "Generic",
+    "price": 2500,
+    "stock": 70,
+    "description": "A universal charger compatible with all DJI Mini drone battery types for efficient recharging.",
+    "image": "../images/dronecharger.png"
+  },
+  {
+    "id": 43,
+    "name": "Remote Controller for DJI Mavic 2",
+    "category": "Accessories",
+    "brand": "DJI",
+    "price": 12000,
+    "stock": 30,
+    "description": "A spare remote controller designed specifically for the DJI Mavic 2 series to ensure uninterrupted flights.",
+    "image": "../images/mavic2controller.png"
+  },
+  {
+    "id": 44,
+    "name": "Propeller Replacement Set for Holy Stone",
+    "category": "Accessories",
+    "brand": "Holy Stone",
+    "price": 1500,
+    "stock": 80,
+    "description": "A set of replacement propellers ensuring optimal performance for your Holy Stone drone.",
+    "image": "../images/holypropellers.png"
+  },
+  {
+    "id": 45,
+    "name": "Extra Battery for FPV Drone",
+    "category": "Accessories",
+    "brand": "Generic",
+    "price": 5000,
+    "stock": 50,
+    "description": "A spare battery designed for FPV racing drones to extend flight sessions during competitions.",
+    "image": "../images/fpv_battery.png"
+  },
+  {
+    "id": 46,
+    "name": "Drone Signal Booster",
+    "category": "Accessories",
+    "brand": "Generic",
+    "price": 6000,
+    "stock": 20,
+    "description": "Enhance the signal strength and range of your drone for long-distance operations.",
+    "image": "../images/signaldboost.png"
+  },
+  {
+    "id": 47,
+    "name": "Foldable Drone Case",
+    "category": "Accessories",
+    "brand": "Generic",
+    "price": 3500,
+    "stock": 40,
+    "description": "A protective, foldable case designed to store and transport your drone securely.",
+    "image": "../images/droncase.png"
+  },
+  {
+    "id": 48,
+    "name": "High-Performance Drone Motor",
+    "category": "Accessories",
+    "brand": "Generic",
+    "price": 4500,
+    "stock": 50,
+    "description": "Replacement motor engineered for high-performance drones to ensure smooth and powerful flights.",
+    "image": "../images/dronemotor.png"
+  },
+  {
+    "id": 49,
+    "name": "Drone Repair Toolkit",
+    "category": "Accessories",
+    "brand": "Generic",
+    "price": 3000,
+    "stock": 60,
+    "description": "A comprehensive toolkit for drone maintenance and repairs, including screwdrivers, pliers, and spare parts.",
+    "image": "../images/drone_toolkit.png"
+  },
+  {
+    "id": 50,
+    "name": "Waterproof Drone Landing Skid",
+    "category": "Accessories",
+    "brand": "Generic",
+    "price": 2000,
+    "stock": 100,
+    "description": "Waterproof landing skids designed for drone landing gear to protect against wear and environmental damage.",
+    "image": "../images/landing_skid.png"
   }
 ]
