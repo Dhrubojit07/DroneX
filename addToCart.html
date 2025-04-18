@@ -95,7 +95,7 @@
               </div>
               <div>
                 <p>Tax (18%):</p>
-                <p class="productTax">₹0.00</p>
+                <p class="productTax">₹0.00</p> 
               </div>
               <hr />
               <div>
@@ -138,9 +138,11 @@
     </template>
 
     <!-- Add this after the Final Total section -->
-<div class="payment-section">
-  <button class="razorpay-payment-button">Checkout Now</button>
-</div>
+    <div class="payment-section">
+      <button class="razorpay-payment-button" id="checkoutButton">
+        Checkout Now
+      </button>
+    </div>
 
     <!-- ========== Start footer Section ========== -->
     <footer class="section-footer">
@@ -188,5 +190,6 @@
     <script type="module" src="calculatePrices.js"></script>
 <script type="module" src="showAddToCartCards.js"></script>
 <script type="module" src="razorpayPayment.js"></script>
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
   </body>
 </html>

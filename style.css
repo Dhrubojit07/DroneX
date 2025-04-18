@@ -948,6 +948,44 @@ footer {
 
 /*****  Add to Cart page ends *****/
 
+/* Add to style.css */
+.razorpay-payment-button {
+  padding: 12px 24px;
+  background: #3399cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.razorpay-payment-button:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+}
+
+.razorpay-payment-button.loading {
+  position: relative;
+}
+
+.razorpay-payment-button.loading::after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  border-top-color: transparent;
+  animation: spin 0.8s linear infinite;
+  transform: translateY(-50%);
+}
+
+@keyframes spin {
+  to { transform: translateY(-50%) rotate(360deg); }
+}
+
 /*****  media queries Section *****/
 
 /* https://getbootstrap.com/docs/5.0/layout/breakpoints/ */
