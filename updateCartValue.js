@@ -1,5 +1,1 @@
-const cartValue = document.querySelector("#cartValue");
-
-export const updateCartValue = (cartProducts) => {
-  return (cartValue.innerHTML = ` <i class="fa-solid fa-cart-shopping"> ${cartProducts.length} </i>`);
-};
+const cartValue=document.querySelector("#cartValue");export const updateCartValue=a=>cartValue.innerHTML=` <i class="fa-solid fa-cart-shopping"> ${a.length} </i>`;

@@ -1,16 +1,1 @@
-// script.js or your main JS file
-document.addEventListener('DOMContentLoaded', function() {
-    const animateElements = document.querySelectorAll('.animate-up');
-  
-    const observer = new IntersectionObserver((entries, observer) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('in-view');
-          observer.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.5 });
-  
-    animateElements.forEach(el => observer.observe(el));
-  });
-  
+document.addEventListener("DOMContentLoaded",(function(){const e=document.querySelectorAll(".animate-up"),t=new IntersectionObserver(((e,t)=>{e.forEach((e=>{e.isIntersecting&&(e.target.classList.add("in-view"),t.unobserve(e.target))}))}),{threshold:.5});e.forEach((e=>t.observe(e)))}));
