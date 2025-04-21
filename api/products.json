@@ -7,7 +7,7 @@
     "price": 200000,
     "stock": 50,
     "description": "4/3 CMOS Hasselblad Camera | Dual Tele Cameras | Cine Only Tri-Camera Apple ProRes Support | 43-Min Max Flight Time | Omnidirectional Obstacle Sensing | 15km HD Video Transmission",
-    "image": "../images/mavic3pro.png"
+    "image": "../images/mavic3pro.webp"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "price": 120000,
     "stock": 60,
     "description": "1-inch CMOS sensor for 20 MP images, 5.4K video recording, 31-minute max flight time, and advanced obstacle avoidance features.",
-    "image": "../images/air2s.png"
+    "image": "../images/air2s.webp"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "price": 80000,
     "stock": 75,
     "description": "Ultra-portable drone with 4K video recording, vertical shooting, and enhanced flight safety features perfect for beginners.",
-    "image": "../images/mini3pro.png"
+    "image": "../images/mini3pro.webp"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "price": 70000,
     "stock": 40,
     "description": "Compact drone with 4K HDR video, 21 MP camera, 25-minute flight time, and a unique 180° tilting gimbal for creative shots.",
-    "image": "../images/parrotanafi.png"
+    "image": "../images/parrotanafi.webp"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "price": 150000,
     "stock": 30,
     "description": "Features a 1-inch CMOS sensor, adjustable aperture, 6K video recording, and intelligent flight modes for creative professionals.",
-    "image": "../images/evoliteplus.png"
+    "image": "../images/evoliteplus.webp"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "price": 175000,
     "stock": 25,
     "description": "AI-powered autonomous flight with exceptional obstacle avoidance, 4K video, and tracking capabilities ideal for action shots.",
-    "image": "../images/skydio2.png"
+    "image": "../images/skydio2.webp"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "price": 180000,
     "stock": 35,
     "description": "Equipped with a 1-inch 20 MP sensor, 4K video recording at 60fps, and advanced obstacle sensing for professional photography.",
-    "image": "../images/phantom4pro.png"
+    "image": "../images/phantom4pro.webp"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "price": 450000,
     "stock": 15,
     "description": "Designed for professional cinematography with dual battery design, 5.2K video capture, and interchangeable lenses.",
-    "image": "../images/inspire2.png"
+    "image": "../images/inspire2.webp"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "price": 110000,
     "stock": 45,
     "description": "High-resolution 48 MP camera, 4K video, 34-minute flight time, and advanced safety features suitable for aerial photography.",
-    "image": "../images/mavicair2.png"
+    "image": "../images/mavicair2.webp"
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "price": 50000,
     "stock": 55,
     "description": "A compact, smart drone perfect for beginners, featuring gesture control, intelligent flight modes, and lightweight design.",
-    "image": "../images/spark.png"
+    "image": "../images/spark.webp"
   },
   {
     "id": 11,
@@ -106,7 +106,7 @@
     "price": 170000,
     "stock": 40,
     "description": "Equipped with a Hasselblad camera offering 1-inch CMOS sensor, adjustable aperture, and detailed aerial imaging capabilities.",
-    "image": "../images/mavic2pro.png"
+    "image": "../images/mavic2pro.webp"
   },
   {
     "id": 12,
@@ -116,7 +116,7 @@
     "price": 160000,
     "stock": 40,
     "description": "Features a 2x optical zoom lens combined with a 1/2.3-inch sensor, perfect for capturing versatile aerial photography.",
-    "image": "../images/djiflip.png"
+    "image": "../images/djiflip.webp"
   },
   {
     "id": 13,
@@ -126,7 +126,7 @@
     "price": 140000,
     "stock": 20,
     "description": "Blends immersive first-person view with high-speed performance, making it ideal for enthusiasts and racing pilots.",
-    "image": "../images/djiavata.png"
+    "image": "../images/djiavata.webp"
   },
   {
     "id": 14,
@@ -136,7 +136,7 @@
     "price": 130000,
     "stock": 22,
     "description": "Hexacopter drone with 4K camera, 360° rotating gimbal, and powerful flight controls designed for aerial photography.",
-    "image": "../images/typhoonhpro.png"
+    "image": "../images/typhoonhpro.webp"
   },
   {
     "id": 15,
@@ -146,7 +146,7 @@
     "price": 210000,
     "stock": 18,
     "description": "Equipped with a 1-inch sensor, adjustable aperture, 6K video recording, and extended flight time for professional workflows.",
-    "image": "../images/evoiipro.png"
+    "image": "../images/evoiipro.webp"
   },
   {
     "id": 16,
@@ -156,7 +156,7 @@
     "price": 45000,
     "stock": 50,
     "description": "Lightweight and agile drone ideal for hobbyists, featuring 1080p video, easy control, and stable flight performance.",
-    "image": "../images/bebop2.png"
+    "image": "../images/bebop2.webp"
   },
   {
     "id": 17,
@@ -166,7 +166,7 @@
     "price": 60000,
     "stock": 80,
     "description": "Ultra-compact drone with 4K video recording, 31-minute flight time, and user-friendly controls ideal for travel and adventure.",
-    "image": "../images/mini2.png"
+    "image": "../images/mini2.webp"
   },
   {
     "id": 18,
@@ -176,7 +176,7 @@
     "price": 190000,
     "stock": 35,
     "description": "A refined version of the Mavic 3 offering professional camera capabilities, extended flight times, and streamlined features.",
-    "image": "../images/mavic3Classic.png"
+    "image": "../images/mavic3Classic.webp"
   },
   {
     "id": 19,
@@ -186,7 +186,7 @@
     "price": 75000,
     "stock": 45,
     "description": "Compact and lightweight design with advanced imaging, ideal for enthusiasts looking to capture aerial moments on the go.",
-    "image": "../images/evoliteplus.png"
+    "image": "../images/evoliteplus.webp"
   },
   {
     "id": 20,
@@ -196,7 +196,7 @@
     "price": 40000,
     "stock": 60,
     "description": "An affordable drone featuring 4K EIS stabilized video, 23-minute flight time, and GPS-assisted positioning for beginners.",
-    "image": "../images/hs720e.png"
+    "image": "../images/hs720e.webp"
   },
   {
     "id": 21,
@@ -206,7 +206,7 @@
     "price": 95000,
     "stock": 30,
     "description": "Offers 4K video recording, 3-axis gimbal stabilization, and intelligent flight modes, making it a balanced option for prosumers.",
-    "image": "../images/zino_pro.png"
+    "image": "../images/zino_pro.webp"
   },
   {
     "id": 22,
@@ -216,7 +216,7 @@
     "price": 85000,
     "stock": 40,
     "description": "Lightweight drone featuring 4K video, 3-axis gimbal stabilization, and a foldable design suited for travel photography.",
-    "image": "../images/x8se2020.png"
+    "image": "../images/x8se2020.webp"
   },
   {
     "id": 23,
@@ -226,7 +226,7 @@
     "price": 550000,
     "stock": 10,
     "description": "Agricultural drone designed for precision spraying and crop monitoring with high load capacity and robust performance in the field.",
-    "image": "../images/agrasT20.png"
+    "image": "../images/agrasT20.webp"
   },
   {
     "id": 24,
@@ -236,7 +236,7 @@
     "price": 900000,
     "stock": 8,
     "description": "An advanced enterprise drone offering multiple payload configurations, long flight times, and precision RTK positioning for industrial applications.",
-    "image": "../images/matrice300rtk.png"
+    "image": "../images/matrice300rtk.webp"
   },
   {
     "id": 25,
@@ -246,7 +246,7 @@
     "price": 95000,
     "stock": 28,
     "description": "Foldable, agile drone with gesture control, 4K camera, and intelligent flight modes, perfect for capturing spontaneous moments.",
-    "image": "../images/mantisg.png"
+    "image": "../images/mantisg.webp"
   },
   {
     "id": 26,
@@ -256,7 +256,7 @@
     "price": 180000,
     "stock": 30,
     "description": "An upgraded edition of the classic Mavic Pro featuring a stunning platinum finish and enhanced performance.",
-    "image": "../images/mavicproplatinum.png"
+    "image": "../images/mavicproplatinum.webp"
   },
   {
     "id": 27,
@@ -266,7 +266,7 @@
     "price": 150000,
     "stock": 25,
     "description": "The original Mavic Pro combines portability and high performance, ideal for both amateurs and professionals.",
-    "image": "../images/mavicPro.png"
+    "image": "../images/mavicPro.webp"
   },
   {
     "id": 28,
@@ -276,7 +276,7 @@
     "price": 130000,
     "stock": 20,
     "description": "Designed for high-speed racing with immersive first-person view, delivering agility and precision control.",
-    "image": "../images/djifpvracing.png"
+    "image": "../images/djifpvracing.webp"
   },
   {
     "id": 29,
@@ -286,7 +286,7 @@
     "price": 140000,
     "stock": 15,
     "description": "A complete FPV package featuring the drone, controller, goggles, and spare parts for an immersive racing experience.",
-    "image": "../images/fpvdronecombo.png"
+    "image": "../images/fpvdronecombo.webp"
   },
   {
     "id": 30,
@@ -296,7 +296,7 @@
     "price": 135000,
     "stock": 30,
     "description": "Sleek design with high-resolution imaging and intelligent flight modes, ideal for creative aerial shots.",
-    "image": "../images/evolite.png"
+    "image": "../images/evolite.webp"
   },
   {
     "id": 31,
@@ -306,7 +306,7 @@
     "price": 3000,
     "stock": 100,
     "description": "High-quality replacement propellers compatible with most drone models, ensuring optimal flight performance.",
-    "image": "../images/propellerset.png"
+    "image": "../images/propellerset.webp"
   },
   {
     "id": 32,
@@ -316,7 +316,7 @@
     "price": 15000,
     "stock": 50,
     "description": "Extra battery designed to extend the flight time of your DJI Mavic 3 Pro for longer sessions.",
-    "image": "../images/mavic3pro_battery.png"
+    "image": "../images/mavic3pro_battery.webp"
   },
   {
     "id": 33,
@@ -326,7 +326,7 @@
     "price": 8000,
     "stock": 40,
     "description": "Stabilizer for drone cameras ensuring smooth and steady aerial footage even in challenging conditions.",
-    "image": "../images/gimbalstabilizer.png"
+    "image": "../images/gimbalstabilizer.webp"
   },
   {
     "id": 34,
@@ -336,7 +336,7 @@
     "price": 7000,
     "stock": 60,
     "description": "Universal drone controller offering precise control and compatibility with various drone models.",
-    "image": "../images/dronecontroller.png"
+    "image": "../images/dronecontroller.webp"
   },
   {
     "id": 35,
@@ -346,7 +346,7 @@
     "price": 26000,
     "stock": 30,
     "description": "Immersive FPV goggles designed for first-person view, perfect for drone racing and aerial exploration.",
-    "image": "../images/fpvgoggles.png"
+    "image": "../images/fpvgoggles.webp"
   },
   {
     "id": 36,
@@ -356,7 +356,7 @@
     "price": 2500,
     "stock": 80,
     "description": "Portable landing pad that protects your drone during take-offs and landings on various surfaces.",
-    "image": "../images/landingpad.png"
+    "image": "../images/landingpad.webp"
   },
   {
     "id": 37,
@@ -366,7 +366,7 @@
     "price": 10000,
     "stock": 60,
     "description": "An additional battery pack to extend your DJI Air 2S flight time for longer aerial sessions.",
-    "image": "../images/air2s_battery.png"
+    "image": "../images/air2s_battery.webp"
   },
   {
     "id": 38,
@@ -376,7 +376,7 @@
     "price": 3500,
     "stock": 70,
     "description": "A complete set of ND filters to control exposure and enhance the quality of aerial photography.",
-    "image": "../images/ndfilter.png"
+    "image": "../images/ndfilter.webp"
   },
   {
     "id": 39,
@@ -386,7 +386,7 @@
     "price": 20000,
     "stock": 100,
     "description": "A comprehensive protection plan offering repair or replacement for your DJI drone in case of accidental damage.",
-    "image": "../images/djicare.png"
+    "image": "../images/djicare.webp"
   },
   {
     "id": 40,
@@ -396,7 +396,7 @@
     "price": 5000,
     "stock": 50,
     "description": "Protective propeller guards designed specifically for the DJI Mini 3 Pro to ensure safe flights.",
-    "image": "../images/propguard.png"
+    "image": "../images/propguard.webp"
   },
   {
     "id": 41,
@@ -406,7 +406,7 @@
     "price": 4000,
     "stock": 40,
     "description": "An ergonomic backpack designed to safely store and transport your drone and all its accessories.",
-    "image": "../images/dronebackpack.png"
+    "image": "../images/dronebackpack.webp"
   },
   {
     "id": 42,
@@ -416,7 +416,7 @@
     "price": 2500,
     "stock": 70,
     "description": "A universal charger compatible with all DJI Mini drone battery types for efficient recharging.",
-    "image": "../images/dronecharger.png"
+    "image": "../images/dronecharger.webp"
   },
   {
     "id": 43,
@@ -426,7 +426,7 @@
     "price": 12000,
     "stock": 30,
     "description": "A spare remote controller designed specifically for the DJI Mavic 2 series to ensure uninterrupted flights.",
-    "image": "../images/mavic2controller.png"
+    "image": "../images/mavic2controller.webp"
   },
   {
     "id": 44,
@@ -436,7 +436,7 @@
     "price": 1500,
     "stock": 80,
     "description": "A set of replacement propellers ensuring optimal performance for your Holy Stone drone.",
-    "image": "../images/holypropellers.png"
+    "image": "../images/holypropellers.webp"
   },
   {
     "id": 45,
@@ -446,7 +446,7 @@
     "price": 5000,
     "stock": 50,
     "description": "A spare battery designed for FPV racing drones to extend flight sessions during competitions.",
-    "image": "../images/fpv_battery.png"
+    "image": "../images/fpv_battery.webp"
   },
   {
     "id": 46,
@@ -456,7 +456,7 @@
     "price": 6000,
     "stock": 20,
     "description": "Enhance the signal strength and range of your drone for long-distance operations.",
-    "image": "../images/signaldboost.png"
+    "image": "../images/signaldboost.webp"
   },
   {
     "id": 47,
@@ -466,7 +466,7 @@
     "price": 3500,
     "stock": 40,
     "description": "A protective, foldable case designed to store and transport your drone securely.",
-    "image": "../images/droncase.png"
+    "image": "../images/droncase.webp"
   },
   {
     "id": 48,
@@ -476,7 +476,7 @@
     "price": 4500,
     "stock": 50,
     "description": "Replacement motor engineered for high-performance drones to ensure smooth and powerful flights.",
-    "image": "../images/dronemotor.png"
+    "image": "../images/dronemotor.webp"
   },
   {
     "id": 49,
@@ -486,7 +486,7 @@
     "price": 3000,
     "stock": 60,
     "description": "A comprehensive toolkit for drone maintenance and repairs, including screwdrivers, pliers, and spare parts.",
-    "image": "../images/drone_toolkit.png"
+    "image": "../images/drone_toolkit.webp"
   },
   {
     "id": 50,
@@ -496,6 +496,6 @@
     "price": 2000,
     "stock": 100,
     "description": "Waterproof landing skids designed for drone landing gear to protect against wear and environmental damage.",
-    "image": "../images/landing_skid.png"
+    "image": "../images/landing_skid.webp"
   }
 ]
