@@ -323,12 +323,8 @@ textarea:focus-visible {
   color: white;
 }
 
-.section-hero .hero-para {
-  font-size: 2.2rem;
-  line-height: 1.8;
-  margin: 2rem 0 4rem 0;
-  color: #f0f0f0;
-}
+.section-hero .hero-para{font-size:1.375rem;line-height:1.6;margin:2rem 0 4rem;color:#f0f0f0;}
+
 
 .section-hero .btn {
   padding: 1.5rem 4rem;
